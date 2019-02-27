@@ -34,7 +34,8 @@ app.layout = html.Div(children=[
                     text=df['Vehicle Name'],  # This line sets the vehicle name as the points' labels.
                     marker={
                         'size': 10,
-                        'opacity': 0.8  # By making the points a bit transparent, it can alleviate the occlusion issue
+                        'opacity': 0.8,  # By making the points a bit transparent, it can alleviate the occlusion issue
+                        'color': 'pink'
                     }
                 )
             ],
