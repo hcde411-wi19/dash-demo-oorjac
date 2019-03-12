@@ -19,8 +19,9 @@ app.layout = html.Div(children=[
         This scatter plot was created to see whether Pokemon's attack points 
         effected the amount of defense points they could gain and vice versa. My hypothesis is
         that the creators of Pokemon will try to balance these stats out, so that if one were to 
-        increase, the other will decrease. After observing this data, it seems that there is not
-        really much of a correlation between the two. 
+        increase, the other will decrease. After observing this data, it seems that there is only a slight
+        positive correlation between the two, meaning that Pokemon with higher attack points also have higher 
+        defense points, but again this correlation is not very strong. 
     '''),
 
     # append the visualization to the page
